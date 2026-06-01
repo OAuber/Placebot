@@ -1,1 +1,59 @@
-
+{
+  "candidats": [
+    {
+      "id": "melenchon-2027",
+      "nom": "Jean-Luc Mélenchon",
+      "parti": "LFI - Nouveau Front Populaire Écologique et Social",
+      "statut": "déclaré",
+      "site_officiel": "https://www.lafranceinsoumise.fr",
+      "programme_url": "https://www.lafranceinsoumise.fr/programme-2027",
+      "declarations_urls": [
+        "https://www.lemonde.fr/politique",
+        "https://www.publicsenat.fr/personnalite/jean-luc-melenchon"
+      ],
+      "actif": true
+    },
+    {
+      "id": "attal-2027",
+      "nom": "Gabriel Attal",
+      "parti": "Renaissance",
+      "statut": "déclaré",
+      "site_officiel": "https://www.gabriel-attal.fr",
+      "programme_url": "https://www.gabriel-attal.fr/programme",
+      "declarations_urls": [
+        "https://www.lemonde.fr/politique",
+        "https://www.gouvernement.fr/premier-ministre"
+      ],
+      "actif": true
+    },
+    {
+      "id": "lepen-2027",
+      "nom": "Marine Le Pen",
+      "parti": "Rassemblement National",
+      "statut": "déclarée",
+      "site_officiel": "https://www.rassemblementnational.fr",
+      "programme_url": "https://www.rassemblementnational.fr/projet",
+      "declarations_urls": [
+        "https://www.lemonde.fr/politique",
+        "https://www.cnews.fr/politique"
+      ],
+      "actif": true
+    },
+    {
+      "id": "placebo1er",
+      "nom": "Placebo 1er",
+      "parti": "Parti Placebo",
+      "statut": "non-candidat",
+      "site_officiel": "https://olivierauber.medium.com/placebo-un-art-politique-561ba040bcf",
+      "programme_url": null,
+      "declarations_urls": [],
+      "actif": false
+    }
+  ],
+  "sources_generales": [
+    "https://www.lemonde.fr/politique",
+    "https://www.vie-publique.fr/",
+    "https://www.ifop.com/",
+    "https://www.opinion-way.com/"
+  ]
+}
