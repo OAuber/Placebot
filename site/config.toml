@@ -1,1 +1,38 @@
+baseURL = "https://oauber.github.io/Placebot/"
+title = "Placebot 2027"
+theme = ""
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
 
+# Configuration du site
+[params]
+  description = "Évaluations des candidats à la présidentielle 2027 contre Placebo 1er."
+  author = "Parti Placebo"
+  github_repo = "https://github.com/OAuber/Placebot"
+
+# Menu principal
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "classement"
+    name = "Classement"
+    url = "/"
+    weight = 2
+  [[menu.main]]
+    identifier = "candidats"
+    name = "Candidats"
+    url = "/candidats/"
+    weight = 3
+  [[menu.main]]
+    identifier = "a-propos"
+    name = "À propos"
+    url = "/a-propos/"
+    weight = 4
+
+# Markdown
+[markup.goldmark.renderer]
+  unsafe = true  # Permet d'utiliser du HTML dans le Markdown
