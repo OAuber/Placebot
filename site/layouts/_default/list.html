@@ -1,1 +1,23 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
 
+  <div class="candidats-list">
+    {{ range .Pages }}
+      <article class="candidat-card">
+        <div class="candidat-header">
+          <h3>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .Params.parti }}
+              <span class="parti">({{ .Params.parti }})</span>
+            {{ end }}
+          </h3>
+          <span class="score score-{{ if lt .Params.score_global 30 }}low{{ else if lt .Params.score_global 70 }}medium{{ else }}high{{ end }}">
+            Score : {{ .Params.score_global }}/100
+          </span>
+        </div>
+        <p>{{ .Params.description | default .Summary }}</p>
+        <a href="{{ .RelPermalink }}" class="btn">Voir la fiche détaillée</a>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
