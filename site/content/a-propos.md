@@ -42,3 +42,54 @@ Chaque mesure est analysée selon 4 critères :
 
 ### 3. **Score global**
 Le score global d'un candidat est calculé ainsi :
+Score = (Toxicité × 0.4) + (Effet nocebo × 0.3) + ((100 - Innocuité) × 0.3)
+
+*Plus le score est bas, mieux c'est.*
+
+---
+
+## 🍌 Qui est Placebo 1er ?
+
+**Placebo 1er** est le candidat du [Parti Placebo](https://olivierauber.medium.com/placebo-un-art-politique-561ba040bcf), un laboratoire d'art cognitif dédié à la démocratie factuelle.
+
+Son programme :
+- **Ne pas se présenter** à l'élection (Protocole de Non-Candidature Active),
+- **Ne proposer aucune mesure** (sauf des mesures placebo comme le Nuage de Points Vide),
+- **Être le groupe témoin** contre lequel évaluer tous les autres candidats.
+
+**Pourquoi ?**
+Parce que l'histoire montre que :
+- Les promesses électorales sont rarement tenues,
+- Les réformes ont souvent des effets pervers imprévus,
+- L'abstention ou le vote blanc sont rarement comptabilisés comme des choix actifs.
+
+Placebo 1er **assume cette réalité** : son "programme" est de **ne rien faire**, et son score est donc **0 en toxicité**.
+
+---
+
+## 🛠️ Technologies utilisées
+
+Placebot est un projet **open source** utilisant :
+- **Python** pour le scraping et l'analyse,
+- **Mistral AI** pour les évaluations,
+- **Hugo** pour générer le site statique,
+- **GitHub Actions** pour l'automatisation.
+
+**Coût** : ~10 €/an (principalement pour les appels à l'API Mistral).
+
+---
+## 📜 Licence
+
+Ce projet est sous licence **MIT**. Vous êtes libre de :
+- L'utiliser,
+- Le modifier,
+- Le redistribuer.
+
+**Attribution** : Un lien vers [le dépôt GitHub](https://github.com/OAuber/Placebot) est apprécié.
+
+---
+## 📧 Contact
+
+Pour toute question ou suggestion :
+- Ouvrez une **issue** sur [GitHub](https://github.com/OAuber/Placebot),
+- Ou contactez [Olivier Auber](https://olivierauber.medium.com/).
